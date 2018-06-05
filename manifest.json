@@ -1,0 +1,17 @@
+{
+	"name": "IP Checker",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "You can check your Public IP Address by using this extension.",
+	"browser_action": {
+		"default_icon": "icon128.png",
+		"default_title": "Check your IP now!",
+		"default_popup": "ip_checker.html"
+	},
+	"permissions": ["tabs", "http://*/*"],
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
+}

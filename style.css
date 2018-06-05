@@ -1,0 +1,53 @@
+ body{
+	background-image: URL("Matrix.png");
+	background-color: #000099;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	min-width:300px;
+	min-height:100px;
+	cursor: URL("left_ptr.cur"), progress !important;
+ }
+ p{
+	color: #FFFFFF;
+ }
+ b.r{
+	color: #FF0000;
+	cursor: URL("cross.cur"), progress !important;
+ }
+ h1{
+	 color: #FFFFFF;
+ }
+ h2{
+	color: #32CD32;
+	cursor: URL("cross.cur"), progress !important;
+ }
+ a{
+	color: #FFFFFF;
+	ursor: URL("pointing_hand.cur"), progress !important;
+	text-decoration: none;
+ }
+ a.clickie{
+	color: #00FF00;
+	cursor: URL("pointing_hand.cur"), progress !important;
+	text-decoration: none;
+ }
+ a.clickie2{
+	color: #FFFFFF;
+	cursor: URL("pointing_hand.cur"), progress !important;
+	text-decoration: none;
+ }
+ button{
+	background-color: #ffb347;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+	cursor: URL("pointing_hand.cur"), progress !important;
+ }
+ legend{
+	color: #FFFFFF;
+ }
+ div.noSelect {
+	 -webkit-user-select: none;
+	cursor: URL("left_ptr.cur"), progress !important;
+}
